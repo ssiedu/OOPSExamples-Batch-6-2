@@ -25,9 +25,9 @@ public class Trial {
 	public static void main(String args[]) {
 		
 		Trial t1=new Trial(10,20,30);
-		//Trial t2=new Trial(40,50);
+		Trial t2=new Trial(40,50);
 		t1.show();
-		//t2.show();
+		t2.show();
 		
 	}
 	
