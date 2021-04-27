@@ -3,6 +3,16 @@ public class Demo {
 	private int x, y;			
 	
 	public Demo(int a, int b) {x=a; y=b;}
+	
+	public boolean equals(Demo other) {
+		if(x==other.x && y==other.y) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	
 	public void print() {
 		System.out.println(x+","+y);
 	}
