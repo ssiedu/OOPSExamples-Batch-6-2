@@ -3,7 +3,14 @@ package inheritance;
 public class MediStud extends Stud {
 	private String specialization;
 	private int prof;
-
+	/*
+	public void result(int marks) {
+		if(marks>=50) {
+			System.out.println("MediStud Passed....");
+		}else {
+			System.out.println("MediStud Failed....");
+		}
+	}*/
 	public void setMediInfo(String a, int b) {
 		specialization = a;
 		prof = b;
@@ -20,5 +27,6 @@ public class MediStud extends Stud {
 		s.setMediInfo("Medicine", 2);
 		s.showPersonalInfo();
 		s.showMediInfo();
+		s.result(48);
 	}
 }
